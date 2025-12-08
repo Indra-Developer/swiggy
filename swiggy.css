@@ -1,0 +1,579 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    font-family: sans-serif;
+}
+
+header {
+
+    position: fixed;
+    top: 0;
+    z-index: 1;
+    background-color: rgb(255, 81, 0);
+    height: 100px;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+nav{
+    height: 54px;
+    width: inherit;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+.logo {
+    margin-right: 90px;
+}
+
+.logo img {
+    cursor: pointer;
+    height: 54px;
+    width: 160px;
+}
+
+.navsection {
+    height: 54px;
+    width: 55%;
+}
+
+.navsection ul {
+    height: 54px;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.navsection ul li {
+    height: 54px;
+}
+
+.navsection ul li a {
+    font-size: 17px;
+    color: white;
+    font-weight: bold;
+    display: block;
+    height: 54px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 150px;
+}
+
+.navsection ul li .sign,
+.navsection ul li .getApp {
+    font-size: 17px;
+    height: 54px;
+    color: white;
+    font-weight: bold;
+    border-radius: 15px;
+    cursor: pointer;
+}
+
+.navsection ul li .getApp {
+    height: 51px;
+    width: 150px;
+    background-color: transparent;
+    outline: 2px solid white;
+    border: none;
+}
+
+.navsection ul li .getApp i {
+    transform: rotate(-125deg);
+}
+
+.navsection ul li .sign {
+    width: 135px;
+    background-color: black;
+}
+.header-two{
+    
+    height: 620px;
+    width: 100%;
+    background-color: rgb(255, 81, 0);
+    position: relative;
+    top: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+.header-two img{
+    position: absolute;
+    height: 450px;
+    width: 250px;
+
+}
+.header-two .img1{
+    top: 0;
+    left: 0;
+}
+.header-two .img2{
+    right: 0;
+    top: 0;
+}
+.sub-header{
+    position: relative;
+    height: 350px;
+    width: 900px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.sub-header .text p{
+    font-size: 48px;
+    font-weight: bold;
+    color: white;
+}
+.sub-header .text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.sub-header .input{
+    height: 60px;
+    width: 800px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.sub-header .input .location{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 60px;
+   width: 350px;
+}
+.sub-header .input .location .sub-location{
+    height: 60px;
+    width: 250px;
+    border: none;
+    outline: none;
+    background-color: white;
+    padding-left: 10px;
+    font-size: 17px;
+}
+.sub-header .input .location .location-1, .sub-header .input .location .location-2{
+    height: 60px;
+    width: 30px;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color:  rgb(255, 81, 0);
+    font-size: 20px;
+}
+.sub-header .input .location .location-1{
+      padding-left: 15px;
+  
+    border-radius: 15px 0px 0px 15px;
+}
+.sub-header .input .location .location-2{
+    border-radius: 0px 15px 15px 0px;
+      padding-right: 20px;
+}
+.sub-header .search{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 60px;
+   width: 400px;
+
+}
+.sub-header .search .sub-location{
+    height: 60px;
+    width: 400px;
+    border: none;
+    outline: none;
+    background-color: white;
+    padding-left: 15px;
+     border-radius: 15px 0px 0px 15px;
+     font-size: 17px;
+}
+
+.sub-header .search .search-icon{
+
+     height: 60px;
+    width: 30px;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    padding-right: 20px;
+    align-items: center;
+    color:  rgb(255, 81, 0);
+    font-size: 20px;
+     border-radius: 0px 15px 15px 0px;
+}
+.header-two .catagories{
+   
+    height: 300px;
+    width: 1000px;
+    display: flex;
+    justify-content: space-evenly;
+}
+.header-two .catagories div{
+    position: relative;
+    height: 265px;
+    width: 300px;
+    border-radius: 25px;
+    background-color: white;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.header-two .catagories div img{
+    cursor: pointer;
+    height: 290px;
+    width: 320px;
+    transition: 0.5s;
+}
+.header-two .catagories div img:hover{
+   transform: scale(1.1);
+}
+.order-best{
+    position: relative;
+    top: 90px;
+    height: 600px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.shop-groceries{
+    height: 180px;
+    width: 100%;
+}
+
+.order-best div{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    height: 600px;
+    width: 1200px;
+}
+.order-best .food{
+    width: 100%;
+    height: 180px;
+    width: 1200px;
+    background-color: white;
+    border: none;   
+    display: flex;
+    justify-content: space-evenly;
+}
+.order-best .food button{
+    cursor: pointer;
+    height: 140px;
+    width: 144px;
+    background-color: white;
+    border: none;   
+}
+.order-best p{
+    font-size: 25px;
+    font-weight: bold;
+
+}
+.order-best .food button img{
+    height: 180px;
+    width: 164px;
+    transition: 0.5s;
+}
+.order-best .food button img:hover{
+    transform: scale(1.1);
+}
+
+
+
+.order-insta{
+
+    height: 350px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.order-insta div{
+   
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    height: 350px;
+    width: 1200px;
+}
+.order-insta .food{
+    width: 100%;
+    height: 180px;
+    width: 1200px;
+    background-color: white;
+    border: none;   
+    display: flex;
+    justify-content: space-evenly;
+}
+.order-insta .food button{
+    cursor: pointer;
+    font-size: 17px;
+    font-weight: bold;
+    height: 140px;
+    width: 144px;
+    background-color: white;
+    border: none;   
+}
+.order-insta p{
+    font-size: 25px;
+    font-weight: bold;
+
+}
+
+.order-insta .food button img{
+    
+    height: 180px;
+    width: 164px;
+    transition: 0.5s;
+}
+
+.order-insta .food button img:hover{
+    
+   transform: scale(1.1);
+}
+
+
+
+
+
+.discover{
+
+
+    height: 600px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.discover main{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    height: 600px;
+    width: 1200px;
+}
+.discover .food{
+    width: 100%;
+    height: 400px;
+    width: 1200px;
+    background-color: white;
+    border: none;   
+    display: flex;
+    justify-content: space-evenly;
+}
+.discover .food>div{
+    cursor: pointer;
+    height: 400px;
+    width: 330px;
+}
+.discover .food>div section {
+    padding: 10px;
+ margin-top: 200px;
+ height: 200px;
+ display: flex;
+ flex-direction: column;
+ justify-content: space-evenly;
+}
+.discover .food>div section div{
+ 
+    display: flex;
+    justify-content:space-between;
+    font-size: 14px;
+    font-weight: bold;
+    color: rgb(93, 90, 90)
+    
+}
+.discover main>p{
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.discover main .food>div{
+    border-radius: 15px 15px 0 0;
+    background-size: 330px 200px;
+    background-repeat: no-repeat;
+}
+.discover main .food .box1{
+    background-image: url(img/d1.avif);
+}
+.discover main .food .box2{
+    background-image: url(img/d2.avif);
+}
+.discover main .food .box3{
+    background-image: url(img/d3.avif);
+}
+.discover main .food .flat{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 40px;
+    width: 310px;
+    border-radius: 15px;
+    background-color: green;
+    color: white;
+    font-weight: bold;
+}
+.discover main .food .upto{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 40px;
+    width: 310px;
+    border-radius: 15px;
+    background-color: rgb(105, 192, 105);
+    color: white;
+    font-weight: bold;
+}
+.download {
+ width:  100%;
+ height: 300px;
+
+}
+.download img{
+    width: 100%;
+    height: 300px;
+}
+.city{
+    height: 500px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.city>p{
+    font-size: 25px;
+    font-weight: bold;
+}
+.city .food{
+    height: 400px;
+    width: 1000px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.city div{
+    cursor: pointer;
+    border-radius: 5px;
+    background-color: rgb(228, 218, 205);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 70px;
+    width: 150px;
+    font-size: 14px;
+    box-shadow: 0 0 3px 1px rgb(81, 73, 73);
+}
+.city button{
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    background-color: rgb(200, 128, 35);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 70px;
+    width: 150px;
+    font-size: 14px;
+    box-shadow: 0 0 3px 1px rgb(81, 73, 73);
+}
+   
+footer{
+    height: 600px;
+    width: 100%;
+    background-color: rgb(240, 240, 245);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+footer .container{
+    display: flex;
+    justify-content: space-evenly;
+    /* align-items: center; */
+    height: 300px;
+    width: 1200px;
+}
+footer section{
+    width: 170px;
+    height: 450px;
+    /* border: 2px solid black; */
+}
+footer .section1 img{
+   
+    height: 60px;
+    width: 150px;
+}
+
+footer section {
+display: flex;
+flex-direction: column;
+justify-content: space-evenly;
+color: rgb(101, 112, 112);
+}
+footer section span:nth-child(1){
+    font-size: 19px;
+    color: black;
+    font-weight: bold;
+}
+footer .container .section1{
+    height: 50px;
+}
+footer .container .section2{
+    height: 350px;
+}
+footer .container .section3{
+    height: 150px;
+}
+footer .container .section4{
+    height: 150px;
+}
+footer .container .section5{
+    height: 200px;
+}
+footer .container .section6{
+    height: 130px;
+}
+footer .container2{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 80px;
+    width: 1400px;
+    font-size: 25px;
+    padding-top: 30px;
+    font-weight: bold;
+    border-top: 2px solid black;
+  
+} 
+footer.container2>img{
+    height: 20px;
+    width: 69px;
+}
+footer .container2 p, footer .container2 img{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100px;
+} 
+     
