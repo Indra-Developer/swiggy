@@ -411,13 +411,13 @@ nav{
     background-repeat: no-repeat;
 }
 .discover main .food .box1{
-    background-image: url('d1.avif');
+    background-image: url("d1.avif");
 }
 .discover main .food .box2{
-    background-image: url('d2.avif');
+    background-image: url("d2.avif");
 }
 .discover main .food .box3{
-    background-image: url('d3.avif');
+    background-image: url("d3.avif");
 }
 .discover main .food .flat{
     display: flex;
@@ -577,5 +577,6 @@ footer .container2 p, footer .container2 img{
     height: 100px;
 } 
      
+
 
 
