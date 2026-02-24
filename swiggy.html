@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>swiggy</title>
+    <title>Indra Food Delivery</title>
     <link rel="stylesheet" href="swiggy.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
         integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
@@ -14,126 +14,97 @@
 <body>
     <header>
         <nav>
-            <section class="logo"><img src="indra.png" alt=""></section>
+            <section class="logo">
+                <img src="img/indra.png" alt="Indra Logo">
+            </section>
+            <input type="checkbox" id="menu-toggle" class="menu-toggle">
+            <label for="menu-toggle" class="hamburger">
+                <i class="fa-solid fa-bars"></i>
+            </label>
             <section class="navsection">
                 <ul>
-                    <li><a href="">Indra Corporate</a></li>
-                    <li><a href="">Partner with us</a></li>
+                    <li><a href="#">Indra Corporate</a></li>
+                    <li><a href="#">Partner with us</a></li>
                     <li><button class="getApp">Get the App <i class="fa-solid fa-arrow-down"></i></button></li>
                     <li><button class="sign">Sign in</button></li>
                 </ul>
             </section>
         </nav>
     </header>
+
     <section class="header-two">
-        <img src="Veggies_new.avif" alt="" class="img1">
-        <img src="Sushi_replace.avif" alt="" class="img2">
+        <img src="img/Veggies_new.avif" alt="" class="img1 decor-img">
+        <img src="img/Sushi_replace.avif" alt="" class="img2 decor-img">
         <section class="sub-header">
             <div class="text">
                 <p>Order food & groceries. Discover</p>
-                <p> best restaurants. Grab it!</p>
+                <p>best restaurants. Grab it!</p>
             </div>
             <div class="input">
                 <div class="location">
-                    <div class="location-1"><i class="fa-solid fa-location-dot "></i></div>
-                    <input type="search" name="location" placeholder="Enter your deliveery location"
-                        class="sub-location">
+                    <div class="location-1"><i class="fa-solid fa-location-dot"></i></div>
+                    <input type="search" name="location" placeholder="Enter your delivery location" class="sub-location">
                     <div class="location-2"><i class="fa-solid fa-caret-down"></i></div>
                 </div>
                 <div class="search">
-
-                    <input type="search" name="items" id="" placeholder="Search for restaurant, item or more"
-                        class="sub-location">
-                    <div class="search-icon"> <i class="fa-solid fa-magnifying-glass"></i></div>
+                    <input type="search" name="items" placeholder="Search for restaurant, item or more" class="sub-location">
+                    <div class="search-icon"><i class="fa-solid fa-magnifying-glass"></i></div>
                 </div>
             </div>
         </section>
-        <section class="catagories">
-            <div class="box1"><img src="fooddelivery.avif" alt=""></div>
-            <div class="box2"><img src="instadeliver.avif" alt=""></div>
-            <div class="box3"><img src="dineout.avif" alt=""></div>
+
+        <section class="catagories wrapper">
+            <div class="box1"><img src="img/fooddelivery.avif" alt="Food Delivery"></div>
+            <div class="box2"><img src="img/instadeliver.avif" alt="Instamart"></div>
+            <div class="box3"><img src="img/dineout.avif" alt="Dineout"></div>
         </section>
     </section>
-    <section class="order-best">
-        <div>
-            <p>Order our best food options</p>
-            <section class="food">
 
-                <button><img src="Dosa.avif" alt=""></button>
-                <button><img src="Cake.avif" alt=""></button>
-                <button><img src="Idli.avif" alt=""></button>
-                <button><img src="Shake.avif" alt=""></button>
-                <button><img src="Pav Bhaji.avif" alt=""></button>
-                <button><img src="Upma.avif" alt=""></button>
-                <button><img src="Juice.avif" alt=""></button>
-
+    <section class="order-best wrapper">
+        <div class="section-container">
+            <p class="section-title">Order our best food options</p>
+            <section class="food scroll-x">
+                <button><img src="img/Dosa.avif" alt="Dosa"></button>
+                <button><img src="img/Cake.avif" alt="Cake"></button>
+                <button><img src="img/Idli.avif" alt="Idli"></button>
+                <button><img src="img/Shake.avif" alt="Shake"></button>
+                <button><img src="img/Pav Bhaji.avif" alt="Pav Bhaji"></button>
+                <button><img src="img/Upma.avif" alt="Upma"></button>
+                <button><img src="img/Juice.avif" alt="Juice"></button>
             </section>
-            <section class="food">
-                <button><img src="Tea.avif" alt=""></button>
-                <button><img src="Vada.avif" alt=""></button>
-
-                <button><img src="Bonda.avif" alt=""></button>
-                <button><img src="Samosa.avif" alt=""></button>
-                <button><img src="salad.avif" alt=""></button>
-                <button><img src="Lassi.avif" alt=""></button>
-                <button><img src="Chole Bhature.avif" alt=""></button>
+            <section class="food scroll-x">
+                <button><img src="img/Tea.avif" alt="Tea"></button>
+                <button><img src="img/Vada.avif" alt="Vada"></button>
+                <button><img src="img/Bonda.avif" alt="Bonda"></button>
+                <button><img src="img/Samosa.avif" alt="Samosa"></button>
+                <button><img src="img/salad.avif" alt="Salad"></button>
+                <button><img src="img/Lassi.avif" alt="Lassi"></button>
+                <button><img src="img/Chole Bhature.avif" alt="Chole Bhature"></button>
             </section>
             <hr>
-
         </div>
     </section>
 
-    <section class="order-insta">
-        <div>
-            <p>Shop groceries on Instamart</p>
-            <section class="food">
-
-                <button><img src="cal.avif" alt="">
-                    <caption>Fresh Vegetables</caption>
-                </button>
-                <button><img src="freshfruits.avif" alt="">
-                    <caption>Fresh Fruits
-                    </caption>
-                </button>
-                <button><img src="dairy.avif" alt="">
-                    <caption>Dairy, Bread and Eggs</caption>
-                </button>
-                <button><img src="rice.avif" alt="">
-                    <caption>Rice, Atta and Dals</caption>
-                </button>
-                <button><img src="masala.avif" alt="">
-                    <caption>Masalas and Dry Fruits</caption>
-                </button>
-                <button><img src="oils.avif" alt="">
-                    <caption>Oils and Ghee</caption>
-                </button>
-
-
+    <section class="order-insta wrapper">
+        <div class="section-container">
+            <p class="section-title">Shop groceries on Instamart</p>
+            <section class="food scroll-x">
+                <button><img src="img/cal.avif" alt=""><caption>Fresh Vegetables</caption></button>
+                <button><img src="img/freshfruits.avif" alt=""><caption>Fresh Fruits</caption></button>
+                <button><img src="img/dairy.avif" alt=""><caption>Dairy, Bread and Eggs</caption></button>
+                <button><img src="img/rice.avif" alt=""><caption>Rice, Atta and Dals</caption></button>
+                <button><img src="img/masala.avif" alt=""><caption>Masalas and Dry Fruits</caption></button>
+                <button><img src="img/oils.avif" alt=""><caption>Oils and Ghee</caption></button>
             </section>
         </div>
-
     </section>
-    <section class="discover">
-        <main>
-            <p>Discover best restaurants on Dineout</p>
-            <section class="food">
-                <div class="box1">
-                    <section>
-                        <div>
-                            <p>Bar Food * Continental</p>
-                            <p>&#8377;1500 for two</p>
-                        </div>
-                        <div>
-                            <p>RMZ Nexity, Hitech city, Hyderabad</p>
-                            <p>12 km</p>
-                        </div>
-                        <div class=" flat"><i class="fa-solid fa-percent"></i> Flat 30% off on pre-booking</div>
-                        <div class="upto">Up to 10% off with bank offers</div>
-                    </section>
 
-                </div>
-                <div class="box2">
-                    <section>
+    <section class="discover wrapper">
+        <main class="section-container">
+            <p class="section-title">Discover best restaurants on Dineout</p>
+            <section class="food grid-3">
+                <div class="box1 card">
+                    <section class="card-content">
                         <div>
                             <p>Bar Food * Continental</p>
                             <p>&#8377;1500 for two</p>
@@ -142,12 +113,12 @@
                             <p>RMZ Nexity, Hitech city, Hyderabad</p>
                             <p>12 km</p>
                         </div>
-                        <div class=" flat"><i class="fa-solid fa-percent"></i> Flat 30% off on pre-booking</div>
+                        <div class="flat"><i class="fa-solid fa-percent"></i> Flat 30% off on pre-booking</div>
                         <div class="upto">Up to 10% off with bank offers</div>
                     </section>
                 </div>
-                <div class="box3">
-                    <section>
+                <div class="box2 card">
+                    <section class="card-content">
                         <div>
                             <p>Bar Food * Continental</p>
                             <p>&#8377;1500 for two</p>
@@ -156,109 +127,114 @@
                             <p>RMZ Nexity, Hitech city, Hyderabad</p>
                             <p>12 km</p>
                         </div>
-                        <div class=" flat"><i class="fa-solid fa-percent"></i> Flat 30% off on pre-booking</div>
+                        <div class="flat"><i class="fa-solid fa-percent"></i> Flat 30% off on pre-booking</div>
+                        <div class="upto">Up to 10% off with bank offers</div>
+                    </section>
+                </div>
+                <div class="box3 card">
+                    <section class="card-content">
+                        <div>
+                            <p>Bar Food * Continental</p>
+                            <p>&#8377;1500 for two</p>
+                        </div>
+                        <div>
+                            <p>RMZ Nexity, Hitech city, Hyderabad</p>
+                            <p>12 km</p>
+                        </div>
+                        <div class="flat"><i class="fa-solid fa-percent"></i> Flat 30% off on pre-booking</div>
                         <div class="upto">Up to 10% off with bank offers</div>
                     </section>
                 </div>
             </section>
         </main>
-
     </section>
 
-    <div class="download">
-        <img src="download.avif" alt="">
+    <div class="download wrapper">
+        <img src="img/download.avif" alt="Download App">
     </div>
 
-    <section class="city">
-        <p>Cities with food delivery</p>
-        <section class="food">
-            <div>Order food online in Bangalore</div>
-            <div>Order food online in Bangalore</div>
-            <div>Order food online in Bangalore</div>
-            <div>Order food online in Bangalore</div>
-            <div>Order food online in Bangalore</div>
-            <div>Order food online in Bangalore</div>
-            <div>Order food online in Bangalore</div>
-            <div>Order food online in Bangalore</div>
-            <div>Order food online in Bangalore</div>
-            <div>Order food online in Bangalore</div>
-            <div>Order food online in Bangalore</div>
-            <div>Order food online in Bangalore</div>
-            <div>Order food online in Bangalore</div>
-            <div>Order food online in Bangalore</div>
-            <div>Order food online in Bangalore</div>
-            <div>Order food online in Bangalore</div>
-            <div>Order food online in Bangalore</div>
-            <div>Order food online in Bangalore</div>
+    <section class="city wrapper">
+        <p class="section-title text-center">Cities with food delivery</p>
+        <section class="food flex-wrap">
+            <div>Bangalore</div>
+            <div>Hyderabad</div>
+            <div>Kolkata</div>
+            <div>Delhi</div>
+            <div>Mumbai</div>
+            <div>Pune</div>
+            <div>Chennai</div>
+            <div>Jaipur</div>
+            <div>Surat</div>
+            <div>Lucknow</div>
+            <div>Kanpur</div>
+            <div>Nagpur</div>
         </section>
     </section>
-    <section class="city">
-        <p>Cities with Grocery delivery</p>
-        <section class="food">
-            <button>Order food online in Hyderabad</button>
-            <button>Order food online in Kolkata</button>
-            <button>Order food online in Kolkata</button>
-            <button>Order food online in Hyderabad</button>
-            <button>Order food online in Kolkata</button>
-            <button>Order food online in Kolkata</button>
-            <button>Order food online in Hyderabad</button>
-            <button>Order food online in Kolkata</button>
-            <button>Order food online in Kolkata</button>
-            <button>Order food online in Hyderabad</button>
-            <button>Order food online in Kolkata</button>
-            <button>Order food online in Kolkata</button>
-            <button>Order food online in Kolkata</button>
-            <button>Order food online in Kolkata</button>
-            <button>Order food online in Hyderabad</button>
-            <button>Order food online in Kolkata</button>
-            <button>Order food online in Kolkata</button>
-            <button>Order food online in Hyderabad</button>
 
+    <section class="city wrapper" style="margin-bottom: 50px;">
+        <p class="section-title text-center">Cities with Grocery delivery</p>
+        <section class="food flex-wrap">
+            <button>Hyderabad</button>
+            <button>Kolkata</button>
+            <button>Bangalore</button>
+            <button>Delhi</button>
+            <button>Mumbai</button>
+            <button>Pune</button>
+            <button>Chennai</button>
+            <button>Jaipur</button>
+            <button>Surat</button>
+            <button>Lucknow</button>
         </section>
     </section>
 
     <footer>
-        <div class="container">
+        <div class="container wrapper footer-grid">
             <section class="section1">
                 <div>
-                    <img src="Group.svg" alt="">
-                    <p>&copy;2025 Indra Limited</p>
+                    <img src="img/Group.svg" alt="Logo">
+                    <p>&copy;2026 Indra Limited</p>
                 </div>
             </section>
             <section class="section2">
-                <span>Comapany</span><span>About Us</span><span>Indra
-                    Corporate</span><span>Careers</span><span>Team</span><span>Indra One</span><span>Indra
-                    Instamart</span><span>Indra Dineout</span><span></span><span></span>
+                <span>Company</span>
+                <a href="#">About Us</a>
+                <a href="#">Indra Corporate</a>
+                <a href="#">Careers</a>
+                <a href="#">Team</a>
+                <a href="#">Indra One</a>
+                <a href="#">Indra Instamart</a>
+                <a href="#">Indra Dineout</a>
             </section>
             <section class="section3">
-                <span>Conttact US</span><span>Help & Support</span><span>Partner With Us</span><span>Ride With Us</span>
-
+                <span>Contact US</span>
+                <a href="#">Help & Support</a>
+                <a href="#">Partner With Us</a>
+                <a href="#">Ride With Us</a>
             </section>
             <section class="section4">
-                <span>Legal</span><span>Terms & Conditions</span><span>Cookie Policy</span> <span>Privacy policy</span>
+                <span>Legal</span>
+                <a href="#">Terms & Conditions</a>
+                <a href="#">Cookie Policy</a>
+                <a href="#">Privacy policy</a>
             </section>
             <section class="section5">
-                <span>Available
-                    in:</span><span>Bangalore</span><span>Gurgaon</span><span>Hyderabad</span><span>Delhi</span><span>Mumbai</span><span>Pune</span>
+                <span>Available in:</span>
+                <a href="#">Bangalore</a>
+                <a href="#">Gurgaon</a>
+                <a href="#">Hyderabad</a>
+                <a href="#">Delhi</a>
+                <a href="#">Mumbai</a>
+                <a href="#">Pune</a>
             </section>
-            <section class="section6">
-                <span>Life at Indra</span><span>Explore With Indra</span><span>Indra News</span>
-                <span>Snackables</span>
-            </section>
-            
-
         </div>
     
-        <div class="container2">
+        <div class="container2 wrapper">
             <p>For better experience, download the Indra app now</p>
-             <img src="appstore.png" alt="" style="height: 60px;"> 
-             <img src="playstore.png" alt="" style="height: 60px;">
+            <div class="app-links">
+                <img src="img/appstore.png" alt="App Store"> 
+                <img src="img/playstore.png" alt="Play Store">
+            </div>
         </div>
     </footer>
-
 </body>
-
-
 </html>
-
-
