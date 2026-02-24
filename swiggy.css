@@ -269,9 +269,9 @@ nav {
     align-items: flex-end;
 }
 
-/* .box1 { background: url('img/d1.avif') top/cover no-repeat; }
+.box1 { background: url('img/d1.avif') top/cover no-repeat; }
 .box2 { background: url('img/d2.avif') top/cover no-repeat; }
-.box3 { background: url('img/d3.avif') top/cover no-repeat; } */
+.box3 { background: url('img/d3.avif') top/cover no-repeat; } 
 
 .card-content {
     background: white;
@@ -448,3 +448,4 @@ footer section a:hover {
         text-align: center;
     }
 }
+
